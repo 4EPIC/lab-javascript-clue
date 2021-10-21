@@ -5,7 +5,7 @@
 const suspectsArray = [
 {
   firstName: "Luffy",
-  lastName: "Monkey",
+  lastName: "Monkey D",
   occupation: "Pirate",
   age: 19,
   description: "He's going to be the pirate king!",
@@ -123,8 +123,8 @@ function pickMystery() {
 
 // ITERATION 3
 
-function revealMystery(envelope) {
-  return `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
+function revealMystery(pepe) {
+  return `${pepe.suspect.firstName} ${pepe.suspect.lastName} killed Mr. Boddy using the ${pepe.weapon.name} in the ${pepe.room.name}!`;
 }
 
 
